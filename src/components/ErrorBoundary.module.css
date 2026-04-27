@@ -1,0 +1,63 @@
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-6);
+  backgroundColor: var(--color-error-light);
+  borderRadius: var(--radius-md);
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+  fontFamily: var(--font-family-sans);
+  fontSize: var(--font-size-sm);
+  lineHeight: var(--line-height-normal);
+  gap: var(--spacing-4);
+  textAlign: center;
+}
+
+.errorMessage {
+  margin: 0;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-error);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+.retryButton {
+  padding: var(--spacing-2) var(--spacing-4);
+  background-color: var(--color-error);
+  color: var(--color-text-inverse);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  line-height: var(--line-height-normal);
+}
+
+.retryButton:hover {
+  background-color: #991b1b;
+}
+
+.retryButton:focus-visible {
+  outline: 2px solid var(--color-border-focus);
+  outline-offset: 2px;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-6);
+  background-color: var(--color-error-light);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  gap: var(--spacing-4);
+  text-align: center;
+}
